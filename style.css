@@ -1,0 +1,134 @@
+* {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: baseline;
+        background: transparent;
+        margin-bottom: 0;
+        margin-right: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+body {
+	margin: 0;
+	padding: 0;
+	border:  0;
+	background: #222;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 800;
+}
+
+.container {
+	width: 100%;
+	margin: 0 auto;
+  position: fixed;
+}
+
+header {
+  background: #b1d9cf;
+}
+
+header::after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+  margin-left: 25px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 50px;
+  margin-right: 25px;
+  padding-top: 35px;
+  position: relative;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 35px;
+  margin-right: 25px;
+  font-family: 'Comfortaa', cursive;
+}
+
+nav a:hover {
+  color: #322865;
+}
+
+nav a::before {
+  content: '';
+  display: block;
+  height: 5px;
+  background-color: #332866;
+  position: absolute;
+  top: 0;
+  width: 0%;
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+  width: 85%;
+}
+
+.what {
+	width: 99.1vw;
+	height:  550vh;
+	object-fit: fill;
+}
+
+.why {
+	width: 99.1vw;
+	height:  300h;
+	object-fit: fill;
+}
+
+.history {
+	width: 99.1vw;
+	height:  350vh;
+	object-fit: fill;
+}
+
+.casestudy {
+	width: 99.1vw;
+	height:  450vh;
+	object-fit: fill;
+}
+
+.schoollogo {
+  position:  fixed;
+  bottom:  0px;
+  right:  0px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.footer {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  height: 25px;
+  width: 100%;
+  background-color: #b1d9cf;
+  margin: 0;
+  margin-top: -5px;
+  color: black;
+  font-family: 'Comfortaa', cursive; 
+  text-align: center;
+}
